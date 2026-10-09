@@ -1,0 +1,25 @@
+Com base nas atividades descritas no Mapa de Processo Narrado (MPN) abaixo, gere um diagrama de fluxo em sintaxe Mermaid (flowchart TD).
+
+PROCESSO: {processo}
+
+MPN:
+{mpn}
+
+INSTRUÇÕES OBRIGATÓRIAS:
+- Use o formato: flowchart TD
+- Crie nós para: o gatilho (início), cada atividade principal da sequência e o resultado final
+- Use formas diferentes: ([texto]) para início/fim, [texto] para atividades, {texto} para decisões
+- Identifique os atores principais como subgraph quando houver mais de um ator claro
+- Máximo de 15 nós para manter legibilidade
+- Use rótulos curtos nos nós (máximo 6 palavras)
+- Retorne APENAS o código Mermaid, sem nenhum texto explicativo antes ou depois, e SEM marcadores de código (não use ```)
+
+EXEMPLO de formato esperado (não copie este exemplo — gere um para o processo acima):
+flowchart TD
+ A([Servidor solicita missão]) --> B[Chefia recebe notificação]
+ B --> C{Prazo menor que 24h?}
+ C -->|Sim| D[Aprovação emergencial]
+ C -->|Não| E[Tramitação normal]
+ D --> F[Setor financeiro processa]
+ E --> F
+ F --> G([Diária aprovada e registrada])

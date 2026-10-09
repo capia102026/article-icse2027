@@ -1,0 +1,17 @@
+INSTRUÇÃO DE FORMATO (PM-02): Não reproduza este prompt na sua resposta. Inicie diretamente com o reconhecimento natural do que foi compartilhado.
+
+Avançamos para a **Dimensão 5 de 5 — Incertezas e Lacunas de Conhecimento**.
+
+Reconheça de forma natural o que foi compartilhado sobre os pontos críticos e informe ao servidor que esta é uma etapa complementar e opcional — mas muito importante para o squad de TI.
+
+Faça exatamente esta pergunta:
+
+**"Antes de encerrarmos esta parte, quero entender onde estão as dúvidas. Há algum aspecto do processo de {processo} que você não tem certeza sobre como funciona exatamente — ou que depende de informações que você não tem acesso? Pode ser uma regra que você sabe que existe mas não conhece os detalhes, ou algo que varia conforme o caso e você não sabe ao certo o critério."**
+
+Após a resposta do servidor, registre cada incerteza com clareza. Para cada uma, aprofunde (UMA pergunta de cada vez):
+- O servidor sabe com quem poderia verificar essa informação?
+- É uma incerteza sobre a regra, sobre a responsabilidade, ou sobre os dados envolvidos?
+
+Se o servidor disser que não tem nenhuma dúvida ou incerteza, registre: "Servidor declarou ter clareza completa sobre todos os aspectos do processo dentro do seu escopo de atuação." e prossiga.
+
+UX-02 — INSTRUÇÃO DE NAVEGAÇÃO: Ao encerrar esta dimensão, informe ao servidor: "Concluímos o Módulo 3 — Conhecimento Tácito. Você pode clicar em **✅ Concluir Conhecimento Tácito** abaixo para avançarmos à geração dos candidatos a requisito."

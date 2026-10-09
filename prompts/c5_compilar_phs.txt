@@ -1,0 +1,38 @@
+Com base no MPN, RCT e LCR abaixo, gere APENAS a seção "Pontos para Aprofundamento pelo Squad" do Pacote de Handover.
+
+PROCESSO: {processo}
+ÓRGÃO/ÁREA: {orgao_area}
+
+MPN (resumo do processo):
+{mpn}
+
+RCT (conhecimento tácito):
+{rct}
+
+LCR (candidatos a requisito):
+{lcr}
+
+GERE EXATAMENTE ESTAS 3 PARTES:
+
+### Perguntas para o Squad de TI — Sessão Formal de Elicitação
+
+Liste exatamente 5 perguntas que o squad de TI DEVE fazer ao servidor na sessão formal. Derive as perguntas diretamente do MPN, RCT e LCR fornecidos. Para cada pergunta, indique o motivo (por que é relevante).
+
+Priorize na seguinte ordem:
+(a) Requisitos marcados com ⚠️ Revisão na LCR que precisam de confirmação técnica ou de escopo
+(b) Regras informais do RCT que precisam ser formalizadas antes da implantação (sequências obrigatórias, prazos não documentados, percentuais sem ato normativo)
+(c) Gaps de integração entre sistemas mencionados (SISTEMA-A, SISTEMA-B, SISTEMA-C ou equivalentes)
+
+Formato de cada item:
+**[N].** [A pergunta completa, clara e direta]
+*Motivo:* [Por que esta pergunta é relevante para o squad — máximo 2 linhas]
+
+### Stakeholders adicionais sugeridos
+
+[Se mencionados durante a sessão, liste nomes/cargos/áreas. Caso contrário: "Não identificados durante esta sessão."]
+
+### Documentos de referência indicados pelo servidor
+
+[Se mencionados documentos, normas, manuais ou sistemas durante a sessão, liste-os. Caso contrário: "Não mencionados durante esta sessão."]
+
+Use apenas informações que emergiram da sessão. Não invente dados. Não inclua seções extras além das 3 listadas acima.

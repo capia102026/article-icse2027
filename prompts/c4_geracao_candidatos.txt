@@ -1,0 +1,72 @@
+Com base no MPN e RCT fornecidos no contexto do sistema, gere candidatos a requisito para o processo abaixo.
+
+PROCESSO: {processo}
+ÓRGÃO/ÁREA: {orgao_area}
+
+INSTRUÇÕES DE GERAÇÃO:
+
+Cada candidato a requisito deve:
+- Usar a estrutura: "O sistema DEVE [verbo de ação] [objeto] [condição/restrição] [resultado verificável]"
+- Ser NÃO-AMBÍGUO: admitir apenas uma interpretação
+- Ser VERIFICÁVEL: possível definir um teste objetivo que confirme seu atendimento
+- Ser SINGULAR: expressar apenas uma necessidade
+
+IMPORTANTE — PRESERVAÇÃO DO ATOR:
+Ao formular candidatos a requisito, identifique QUEM realiza a ação conforme descrito pelo servidor.
+
+Se o servidor descreveu uma atividade HUMANA (ex: "a área X verifica", "servidor faz prestação de contas",
+"chefia aprova"), formule o requisito preservando o ator humano:
+ ✅ CORRETO: "O sistema DEVE suportar que a área X verifique a documentação e registre o resultado."
+ ❌ ERRADO: "O sistema DEVE verificar automaticamente a documentação."
+
+Automação de atividades manuais é decisão de escopo do CLIENTE — nunca assuma que é desejada
+sem confirmação explícita do servidor durante a sessão.
+
+ARQ-03 — VALIDAÇÃO DE ESCOPO (obrigatória antes de registrar cada requisito):
+Antes de registrar qualquer requisito, responda internamente às seguintes perguntas:
+1. Este requisito refere-se diretamente ao processo "{processo}" descrito pelo servidor?
+2. O requisito menciona termos, entidades ou funcionalidades de processos não relacionados a "{processo}"?
+Se a resposta à pergunta 1 for NÃO, ou à pergunta 2 for SIM, descarte o candidato e gere um substituto com escopo correto. Nunca registre requisitos fora do escopo do processo informado.
+
+Para cada candidato, indique:
+- **ID:** RF-001, RF-002... (funcional) ou RNF-001... (não funcional)
+- **Tipo:** Funcional (RF) ou Não Funcional (RNF)
+- **Origem:** módulo de origem (C2 — MPN ou C3 — RCT), número do turno na conversa e trecho verbatim do servidor que gerou o requisito. Formato: "C2 — Turno N — «[trecho literal do que o servidor disse]»" ou "C3/D[1-4] — Turno N — «[trecho literal]»". Se a informação derivar de múltiplos turnos, liste todos separados por ponto-e-vírgula.
+- **Candidato:** o texto do requisito
+- **Qualidade:** ✅ Claro e verificável | ⚠️ Revisão necessária: [motivo específico — o que está ambíguo ou não testável]
+- **Reformulação** (apenas se ⚠️): versão corrigida proposta
+
+EXEMPLOS DO CONTEXTO DE DOMÍNIO (solicitação de diárias de viagem):
+
+Exemplo 1 (RF - aprovado):
+ID: RF-001
+Tipo: Funcional
+Origem: C2 — Turno 4 — «a chefia precisa aprovar antes de seguir para o financeiro»
+Candidato: "O sistema DEVE registrar a data e hora da aprovação da chefia imediata para cada solicitação de diária, mantendo o histórico de todas as aprovações vinculadas ao processo."
+Qualidade: ✅ Claro e verificável ("data e hora" é mensurável; verificável: consulta ao banco de dados; singular: uma necessidade)
+
+Exemplo 2 (RNF - aprovado):
+ID: RNF-001
+Tipo: Não Funcional
+Origem: C3/D2 — Turno 7 — «quando é urgência, a gente aprova em menos de um dia mesmo»
+Candidato: "O sistema DEVE permitir a aprovação de solicitações de missão de emergência em prazo inferior a 24 horas, notificando automaticamente a chefia imediata por e-mail institucional."
+Qualidade: ✅ Claro e verificável
+
+Exemplo 3 (RF - revisão):
+ID: RF-005
+Tipo: Funcional
+Origem: C3/D1 — Turno 3 — «cargos especiais têm tratamento diferente aqui»
+Candidato: "O sistema deve tratar cargos especiais de forma diferente."
+Qualidade: ⚠️ Revisão — Ambíguo ("cargos especiais" não definido; "forma diferente" não verificável)
+Reformulação: "O sistema DEVE aplicar automaticamente o teto de diária correspondente ao nível do cargo em comissão do solicitante, validando o valor solicitado contra a tabela vigente antes de submeter para aprovação."
+
+VERIFICAÇÃO DE COBERTURA — REQUISITOS DE TRATAMENTO DE ERRO (execute internamente antes de listar — não exiba este bloco):
+
+Antes de finalizar a lista, responda internamente às três perguntas abaixo e acrescente requisitos para situações não cobertas:
+→ O que acontece quando o sistema bloquear um servidor por engano (ex: débito incorreto cadastrado)? Há requisito de desbloqueio manual com justificativa?
+→ O que o sistema faz quando o destino da missão não está cadastrado na tabela de referência? Há requisito de cadastro ad-hoc ou alerta?
+→ Algum documento exigido tem prazo de validade que o sistema deve verificar antes de aceitar a solicitação?
+
+Se alguma dessas situações não estiver coberta pelos requisitos já gerados, acrescente os requisitos correspondentes antes de fechar a lista.
+
+Gere agora todos os candidatos para o processo {processo}. Agrupe por: primeiro os RFs, depois os RNFs.

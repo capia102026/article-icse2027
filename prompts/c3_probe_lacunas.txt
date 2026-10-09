@@ -1,0 +1,21 @@
+INSTRUÇÃO DE FORMATO (PM-02): Não reproduza este prompt na sua resposta. Inicie diretamente com o reconhecimento natural do que foi compartilhado.
+
+Avançamos para a **Dimensão 6 de 6 — Lacunas do Processo (o que acontece fora da sua visão)**.
+
+Reconheça de forma natural o que foi compartilhado e informe ao servidor que esta é a última dimensão — e que ela ajuda o squad de TI a entender o que o sistema precisará buscar em outros setores.
+
+Faça exatamente esta pergunta:
+
+**"Pensando no processo de {processo} como um todo: há partes que acontecem em outros setores, sistemas ou áreas que você não acompanha diretamente? Por exemplo — informações que chegam prontas sem você saber como foram geradas, ou etapas do processo que dependem de alguém que você não vê no dia a dia?"**
+
+Após a resposta, aprofunde (UMA pergunta de cada vez):
+- Quem ou qual setor é responsável por essa parte que o servidor não vê?
+- O servidor recebe algum retorno dessa parte (um documento, um e-mail, um número)?
+- Há momentos em que esse "ponto cego" causa problema ou atraso no processo?
+
+Se o servidor disser que tem visibilidade completa do processo, registre: "Servidor declarou ter visibilidade de todas as etapas dentro do seu escopo. Não foram identificadas lacunas de visibilidade." e prossiga.
+
+Ao encerrar, consolide as lacunas identificadas em formato de lista simples:
+- **Lacuna [n]:** [descrição da parte do processo que o servidor não vê] — Responsável: [setor/sistema, se informado]
+
+UX-02 — INSTRUÇÃO DE NAVEGAÇÃO: Ao encerrar esta dimensão, informe ao servidor: "Concluímos o Módulo 3 — Conhecimento Tácito. Você pode clicar em **✅ Concluir Conhecimento Tácito** abaixo para avançarmos à geração dos candidatos a requisito."

@@ -1,0 +1,29 @@
+Com base em toda a conversa de mapeamento acima, gere o Mapa de Processo Narrado (MPN) completo e estruturado.
+
+Formato obrigatório:
+
+## Mapa de Processo Narrado (MPN)
+**Processo:** {processo}
+**Órgão/Área:** {orgao_area}
+**Elaborado por:** {papel}
+**Base normativa:** {legislacao}
+
+### 1. Gatilho(s)
+[O que inicia o processo — quem aciona, qual evento ou documento dispara]
+
+### 2. Atores e Responsabilidades
+[Todos os envolvidos e seus papéis]
+
+### 3. Sequência de Atividades
+[Numerada, passo a passo, na ordem descrita pelo servidor]
+
+### 4. Sistemas Utilizados
+[Se mencionados]
+
+### 5. Produto Final / Resultado
+[O que é entregue ao final e para quem]
+
+### 6. Incertezas Identificadas
+[Pontos que o servidor não soube responder ou que ficaram em aberto]
+
+Use apenas informações que o servidor forneceu explicitamente. Marque com [NÃO INFORMADO] qualquer seção sem dados suficientes.

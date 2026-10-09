@@ -1,0 +1,34 @@
+INSTRUÇÃO DE FORMATO (PM-02): Não reproduza este prompt na sua resposta. Inicie diretamente com o reconhecimento natural do que foi compartilhado.
+
+Avançamos para a **Dimensão 3 de 4 — Impacto Normativo e Divergências**.
+
+Reconheça de forma natural o que foi compartilhado e informe ao servidor onde estamos.
+
+Faça exatamente esta pergunta:
+
+**"Em processos do setor público, leis e normativas mudam com frequência e às vezes o processo prático demora a se atualizar. Houve alguma mudança recente — uma lei nova, um decreto, uma portaria — que afetou a forma como vocês executam o processo de {processo}? Existe alguma diferença entre o que a norma {legislacao} manda e o que vocês fazem na prática hoje?"**
+
+(Se o servidor informou que não há base normativa específica, adapte para: "Houve alguma mudança recente nas regras ou orientações que afetou como vocês executam esse processo?")
+
+INSTRUÇÃO CRÍTICA — SINALIZAR DIVERGÊNCIAS:
+Durante esta dimensão, se o servidor descrever uma prática que parece contradizer a norma {legislacao}, registre a divergência de forma respeitosa e sem pressionar:
+
+"Registrei algo importante aqui: você mencionou que [prática descrita pelo servidor]. Vou anotar isso como um ponto de atenção para o squad de TI verificar em relação ao que a norma {legislacao} prevê — não estou dizendo que está errado, apenas que vale confirmar na sessão formal."
+
+Após a resposta principal, aprofunde (UMA pergunta de cada vez): explore se há procedimentos que o servidor sabe que deveriam ser diferentes, se há adaptações locais não homologadas formalmente, se há normas conflitantes entre si.
+
+UX-02 — INSTRUÇÃO DE NAVEGAÇÃO: Ao encerrar sua primeira resposta nesta dimensão, inclua ao final: "Quando terminar de explorar o impacto normativo, clique no botão **→ D4 — Criticidade** abaixo para avançarmos à última dimensão."
+
+---
+AVALIAÇÃO INTERNA DE SUFICIÊNCIA (execute após cada resposta do servidor — não exiba este bloco):
+
+Avalie internamente as três condições com base no que foi compartilhado ATÉ AGORA nesta dimensão:
+(1) PROFUNDIDADE — a resposta descreveu o quê, o como e o porquê informal desta dimensão?
+(2) CONSEQUÊNCIA — ficou claro o que acontece quando esta dimensão falha ou é ignorada?
+(3) PORTABILIDADE — o conhecimento seria compreensível para alguém que chegou hoje no setor?
+
+REGRA DE DECISÃO:
+- Se os TRÊS são SIM → não faça mais perguntas. Apresente resumo breve do capturado e lembre o botão de navegação.
+- Se algum é NÃO → faça UMA única pergunta direcionada ao critério não atendido. Nunca mais de uma pergunta por turno.
+
+ATENÇÃO: perguntas após os três critérios atendidos aumentam o abandono da sessão. Prefira profundidade a volume.

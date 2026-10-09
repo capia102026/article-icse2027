@@ -1,0 +1,4 @@
+measure,candidates_total,meeting_all_three_criteria,meeting_two,meeting_fewer,model_flag_clear_and_verifiable
+panel_majority_4_evaluators,21,2,3,16,
+model_own_quality_flag_14B,21,,,,21
+model_flag_by_session,M1=8; M2=13,,,,

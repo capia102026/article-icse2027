@@ -1,0 +1,36 @@
+Com base em toda a conversa de conhecimento tácito acima, gere o Registro de Conhecimento Tácito (RCT) completo e estruturado.
+
+Formato obrigatório:
+
+## Registro de Conhecimento Tácito (RCT)
+**Processo:** {processo}
+**Órgão/Área:** {orgao_area}
+
+### 1. Exceções e Casos Especiais
+[Situações que fogem do fluxo normal, com o tratamento diferenciado aplicado]
+- Item 1: [descrição]
+- Item 2: [descrição]
+...
+
+### 2. Regras Não Escritas / Práticas Informais
+[Conhecimento que existe na cabeça da equipe mas não está documentado]
+- Item 1: [descrição]
+- Item 2: [descrição]
+...
+
+### 3. Impactos de Mudanças Legislativas
+[Divergências entre norma atual e prática real]
+- Item 1: [descrição]
+...
+
+### 4. Pontos Críticos (o sistema não pode errar)
+[Consequências graves de falha — riscos ao cidadão, ao órgão ou à norma]
+- Item 1: [descrição]
+...
+
+### 5. Incertezas e Lacunas
+[O que o servidor não soube responder — pontos a aprofundar com a equipe de TI]
+- Item 1: [descrição]
+...
+
+Use apenas informações fornecidas explicitamente pelo servidor. Marque com [NÃO IDENTIFICADO] seções sem dados.

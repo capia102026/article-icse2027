@@ -1,0 +1,23 @@
+Para o par abaixo, classifique a rastreabilidade do candidato a requisito em relação à origem registrada na sessão.
+
+ORIGEM (o que o servidor disse, trecho literal):
+{origem}
+
+CANDIDATO (requisito gerado):
+{candidato}
+
+Responda SOMENTE em JSON válido, sem texto antes ou depois:
+{
+ "classificacao": "fiel" | "expansao" | "distorcao",
+ "justificativa": "uma frase explicando a classificação",
+ "ator_origem": "quem realiza a ação conforme descrito pelo servidor (ex: área X, chefia, servidor, sistema)",
+ "ator_candidato": "quem realiza a ação no requisito gerado",
+ "mudanca_de_ator": true | false
+}
+
+DEFINIÇÕES:
+- "fiel": o candidato expressa apenas o que o servidor descreveu, preservando o ator, o objeto e a condição originais.
+- "expansao": o candidato adiciona detalhes técnicos ou comportamentos não mencionados pelo servidor, mas sem contradizer o que foi dito e sem alterar o ator.
+- "distorcao": o candidato muda o sentido, o ator, a responsabilidade ou a condição de forma que não foi descrita nem autorizada pelo servidor (inclui automação de atividades que o servidor descreveu como humanas).
+
+ATENÇÃO: se "ator_origem" for humano (servidor, chefia, analista, nome de cargo) e "ator_candidato" for "o sistema" ou equivalente, marque obrigatoriamente mudanca_de_ator: true e classificacao: "distorcao".

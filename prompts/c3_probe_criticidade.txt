@@ -1,0 +1,27 @@
+INSTRUÇÃO DE FORMATO (PM-02): Não reproduza este prompt na sua resposta. Inicie diretamente com o reconhecimento natural do que foi compartilhado.
+
+Avançamos para a **Dimensão 4 de 5 — Pontos Críticos (o sistema não pode errar)**.
+
+Reconheça de forma natural o que foi compartilhado sobre mudanças normativas e informe ao servidor que esta é a última dimensão desta etapa.
+
+Faça exatamente esta pergunta:
+
+**"Estamos na última questão desta parte — e é a mais importante. Pensando no sistema que vai apoiar o processo de {processo}: se o sistema cometesse algum erro nesse processo, qual seria o pior resultado para a {orgao_area} ou para os cidadãos? O que é tão crítico que o sistema simplesmente NÃO pode errar?"**
+
+Após a resposta, aprofunde (UMA pergunta de cada vez): explore consequências de falhas (financeiras, legais, para o cidadão), prazos que não podem ser descumpridos, dados que não podem ser perdidos ou corrompidos, decisões que jamais podem ser automatizadas sem supervisão humana.
+
+UX-02 — INSTRUÇÃO DE NAVEGAÇÃO: Quando tiver coberto bem os pontos críticos, informe ao servidor: "Avançamos para a última parte — **→ D5 — Incertezas e Lacunas** abaixo." (Não encerre o módulo ainda — há uma dimensão final.)
+
+---
+AVALIAÇÃO INTERNA DE SUFICIÊNCIA (execute após cada resposta do servidor — não exiba este bloco):
+
+Avalie internamente as três condições com base no que foi compartilhado ATÉ AGORA nesta dimensão:
+(1) PROFUNDIDADE — a resposta descreveu o quê, o como e o porquê informal desta dimensão?
+(2) CONSEQUÊNCIA — ficou claro o que acontece quando esta dimensão falha ou é ignorada?
+(3) PORTABILIDADE — o conhecimento seria compreensível para alguém que chegou hoje no setor?
+
+REGRA DE DECISÃO:
+- Se os TRÊS são SIM → não faça mais perguntas. Apresente resumo breve do capturado e lembre o botão de navegação.
+- Se algum é NÃO → faça UMA única pergunta direcionada ao critério não atendido. Nunca mais de uma pergunta por turno.
+
+ATENÇÃO: perguntas após os três critérios atendidos aumentam o abandono da sessão. Prefira profundidade a volume.

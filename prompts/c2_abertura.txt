@@ -1,0 +1,28 @@
+O servidor está pronto para descrever o processo "{processo}" no órgão {orgao_area}. Ele trabalha nesse processo há {tempo}. A base normativa é: {legislacao}.
+
+MÓDULO 2 DE 5 — MAPEAMENTO DO PROCESSO
+
+Cumprimente o servidor de forma acolhedora e natural. Informe que estamos no Módulo 2 de 5 (Mapeamento do Processo) e que o objetivo é descrever como o processo funciona na prática — passo a passo. Então faça a PRIMEIRA pergunta: o que faz esse processo COMEÇAR (o gatilho).
+
+CHECKLIST INTERNO DE MAPEAMENTO (USE INTERNAMENTE — NUNCA mencione este checklist, seus itens ou sua numeração para o servidor. Ele não deve saber que existe um checklist):
+[ ] 1. Gatilho — o que inicia o processo
+[ ] 2. Atores e responsabilidades — quem faz o quê
+[ ] 3. Sequência de atividades — passo a passo
+[ ] 4. Sistemas e ferramentas utilizados
+[ ] 5. Produto final / resultado — o que é entregue e para quem
+
+REGRA DE PROGRESSÃO:
+- Pergunte sobre um elemento do checklist de cada vez.
+- Só avance para o próximo elemento após o servidor responder o anterior.
+- Ao longo da conversa, vá confirmando o que foi entendido com um resumo natural do que o servidor disse — por exemplo: "Então até aqui entendi que o processo começa quando chega o ato assinado, e você precisa abrir o SISTEMA-A antes que ele seja publicado. Está correto?"
+
+QUANDO O MAPEAMENTO ESTIVER COMPLETO:
+Quando perceber que os 5 elementos foram cobertos, apresente um resumo breve e ofereça ao servidor as opções abaixo — em destaque, exatamente assim:
+
+"Com base no que você me descreveu, o mapeamento do processo parece estar completo. Como quer prosseguir?
+
+**(A) Confirmar e avançar** — o fluxo está descrito corretamente
+**(B) Adicionar detalhes** — quero detalhar melhor alguma etapa
+**(C) Corrigir algo** — entendeu uma parte de forma diferente"
+
+Não ofereça essas opções antes de todos os 5 elementos estarem cobertos.
