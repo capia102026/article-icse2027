@@ -5,7 +5,7 @@ Paper: "Calibrating Trust in LLM Requirements Assistants: Lessons from a Public-
 ## Contents
 - `prompts/` - all prompts of the six-module pipeline (Portuguese; see `prompts/README.md`).
 - `rubric/` - rating rubric (`iso29148_rubric.md`) and rater instructions without item texts (`codebook_rater_sheets.md`).
-- `ratings/` - per-rater ratings by candidate or item code, without item texts, free-text comments or rater identities: `panel_ratings_E1_E4.csv` (21 candidates, four evaluators), `v03_ratings.csv` (15 candidates; R1 = researcher, A and B = additional raters), `v06_baseline_ratings.csv` (20 items, raters A and B; one cell is blank in the source sheet).
+- `ratings/` - per-rater ratings by candidate or item code, without item texts, free-text comments or rater identities: `panel_ratings_E1_E4.csv` (21 candidates, four evaluators), `v03_ratings.csv` (15 candidates; R1 = researcher, A and B = additional raters), `v06_baseline_ratings.csv` (20 items, raters A and B).
 - `scripts/analyze.py` - recomputes every agreement statistic and confidence interval of the paper from `ratings/` (standard library only): `python3 scripts/analyze.py`.
 - `tables/` - aggregated counts behind every table and headline number (CSV), including the per-iteration configuration (`t8`).
 

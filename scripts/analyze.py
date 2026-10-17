@@ -42,7 +42,7 @@ print('Fully faithful A/B:', sum(ab['A'][i]['fidelity'] == 'Faithful' for i in c
 at = {r_: [1 if next(r for r in V if r['rater'] == r_ and r['candidate'] == c)['actor_shift'] == 'Y' else 0 for c in cands] for r_ in ('R1', 'A', 'B')}
 print('Actor shift R1/A/B:', {k: sum(v) for k, v in at.items()}, '| majority >=2 of 3:', sum(sum(at[r_][i] for r_ in at) >= 2 for i in range(15)))
 
-print('\n== V06 baseline (20 items; rater answers Y/Partial/N; blank excluded) ==')
+print('\n== V06 baseline (20 items; rater answers Y/Partial/N) ==')
 B = rd('ratings/v06_baseline_ratings.csv'); it = sorted({r['item'] for r in B})
 a = {r['item']: r['already_in_first_3_responses'] for r in B if r['rater'] == 'A'}; b = {r['item']: r['already_in_first_3_responses'] for r in B if r['rater'] == 'B'}
 both = [i for i in it if a[i] != '(blank)' and b[i] != '(blank)']
