@@ -1,0 +1,5 @@
+iteration,date_2026,model,hardware,temperature,context_tokens
+v02,19 Aug,llama3.1:8b,local server (CPU only),n/r,n/r
+v03,21 Aug,llama3.1:8b,local server (CPU only),n/r,n/r
+v06,28 Aug,llama3.1:8b,local server (CPU only),n/r,n/r
+S9/M1/M2,2-3 Sep,qwen2.5:14b,cloud GPU (g4dn.xlarge; T4),0.1,16384

@@ -1,4 +1,8 @@
-axis,description,approved,total,rate_pct
-1,LLM self-assessment (ISO/IEC/IEEE 29148),14,15,93.3
-2,Human ISO/IEC/IEEE 29148 (single rater),3,15,20.0
-3,Fully faithful to the civil servant's input,0,15,0.0
+axis,description,approved,total,rate_pct,ci95_wilson_pct
+1,LLM self-assessment (ISO/IEC/IEEE 29148),14,15,93.3,70-99
+2,Researcher ISO/IEC/IEEE 29148 (R1),3,15,20.0,7-45
+2b,Additional rater A ISO/IEC/IEEE 29148,1,15,6.7,1-30
+2c,Additional rater B ISO/IEC/IEEE 29148,0,15,0.0,0-20
+3,Fully faithful - researcher (R1),0,15,0.0,0-20
+3b,Fully faithful - rater A,5,15,33.3,15-58
+3c,Fully faithful - rater B,0,15,0.0,0-20

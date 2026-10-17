@@ -9,3 +9,7 @@ fleiss_kappa,unambiguous,-0.01
 fleiss_kappa,verifiable,-0.08
 fleiss_kappa,singular,0.12
 fleiss_kappa,pooled,0.02
+approved_all_three_of_21,E1,14
+approved_all_three_of_21,E2,3
+approved_all_three_of_21,E3,3
+approved_all_three_of_21,E4,2

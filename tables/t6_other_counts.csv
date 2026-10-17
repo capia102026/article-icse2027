@@ -1,5 +1,3 @@
 metric,numerator,denominator,rate_pct,note
-automation_bias_v03,7,15,46.7,candidates turning a human activity into a system function
-knowledge_retention_full_v02,3,27,11.1,
-information_gain_v06,19,24,79.2,proxy baseline = first three turns of module C2
-session_duration_v03,228,,,minutes (3 h 48 min); plan was 90-120 min
+knowledge_retention_full_v02,3,27,11.1,single rater
+session_duration_v03_minutes,228,,,3 h 48 min; plan was 90-120 min

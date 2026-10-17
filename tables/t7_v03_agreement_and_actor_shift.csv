@@ -1,0 +1,14 @@
+statistic,pair_or_rater,value
+cohen_kappa_global_approval,R1-A,0.44
+cohen_kappa_global_approval,R1-B,0.00
+cohen_kappa_global_approval,A-B,0.00
+fleiss_kappa_global_approval,R1-A-B,0.18
+cohen_kappa_criterion_A_x_B,unambiguous,0.10
+cohen_kappa_criterion_A_x_B,verifiable,0.47
+cohen_kappa_criterion_A_x_B,singular,-0.58
+cohen_kappa_fidelity_A_x_B,five classes,-0.06
+actor_shift_count_of_15,R1,7
+actor_shift_count_of_15,A,4
+actor_shift_count_of_15,B,11
+actor_shift_majority_of_15,>=2 of 3 raters,8
+v06_cohen_kappa_A_x_B,already in first 3 responses (19 items),0.62

@@ -1,0 +1,46 @@
+candidate,rater,unambiguous,verifiable,singular,approved_all_three,fidelity,actor_shift,note
+RF-001,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-002,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-003,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-004,R1,,,,Y,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-005,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-006,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-007,R1,,,,Y,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-008,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-009,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-001,R1,,,,N,,Y,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-002,R1,,,,Y,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-003,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-004,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-005,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RNF-006,R1,,,,N,,N,researcher; per-criterion and fidelity classes not reconstructed (0/15 fully faithful)
+RF-001,A,Y,N,Y,N,Faithful,N,
+RF-001,B,N,Y,Y,N,Distortion,Y,
+RF-002,A,N,N,Y,N,Faithful,N,
+RF-002,B,Y,N,N,N,Distortion,Y,
+RF-003,A,N,Y,N,N,Distortion,Y,
+RF-003,B,N,Y,Y,N,Distortion,Y,
+RF-004,A,Y,Y,N,N,Distortion,Y,
+RF-004,B,Y,Y,N,N,Distortion,N,
+RF-005,A,N,N,N,N,Legitimate expansion,N,
+RF-005,B,N,N,Y,N,Distortion,Y,
+RF-006,A,N,N,Y,N,Legitimate expansion,N,
+RF-006,B,Y,N,N,N,Distortion,Y,
+RF-007,A,Y,Y,Y,Y,Faithful,N,
+RF-007,B,Y,Y,N,N,Hallucination,Y,
+RF-008,A,Y,N,Y,N,Faithful,N,
+RF-008,B,Y,N,N,N,Distortion,Y,
+RF-009,A,Y,N,Y,N,Contamination,N,
+RF-009,B,Y,N,N,N,Distortion,Y,
+RNF-001,A,Y,N,N,N,Distortion,N,
+RNF-001,B,N,N,Y,N,Legitimate expansion,N,
+RNF-002,A,Y,Y,N,N,Distortion,Y,
+RNF-002,B,N,Y,Y,N,Distortion,Y,
+RNF-003,A,N,Y,Y,N,Legitimate expansion,N,
+RNF-003,B,N,Y,Y,N,Distortion,Y,
+RNF-004,A,Y,N,N,N,Faithful,N,
+RNF-004,B,N,Y,Y,N,Distortion,N,
+RNF-005,A,Y,N,N,N,Distortion,Y,
+RNF-005,B,N,Y,Y,N,Distortion,Y,
+RNF-006,A,N,Y,N,N,Legitimate expansion,N,
+RNF-006,B,N,N,Y,N,Distortion,N,
